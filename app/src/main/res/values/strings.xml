@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">RecyclerViewDemo</string>
+    <string-array name="name">
+        <item>ramzi</item>
+        <item>zied</item>
+        <item>aya</item>
+        <item>adnen</item>
+        <item>ahmed</item>
+        <item>manel</item>
+        <item>weal</item>
+        <item>rihab</item>
+        <item>mohamed</item>
+        <item>sara</item>
+    </string-array>
+    <string-array name="email">
+        <item>ramzi111@gmail.com</item>
+        <item>zied123@gmail.com</item>
+        <item>aya456@gmail.com</item>
+        <item>adnen789@gmail.com</item>
+        <item>ahmedtt@gmail.com</item>
+        <item>manel3@gmail.com</item>
+        <item>weal6@gmail.com</item>
+        <item>rihab789@gmail.com</item>
+        <item>mohamedaaa@gmail.com</item>
+        <item>sara1000@gmail.com</item>
+    </string-array>
+</resources>
