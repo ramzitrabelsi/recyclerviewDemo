@@ -12,7 +12,7 @@ import java.util.ArrayList;
 public class MainActivity extends AppCompatActivity {
     RecyclerView recyclerView;
     RecyclerView.LayoutManager layoutManager;
-    RecyclerView.Adapter adapter;
+    ContactAdapter adapter;
     Toolbar toolbar;
     String [] Name,Email;
     int[] img_id={R.drawable.bb,R.drawable.dd,R.drawable.ff,R.drawable.gg,R.drawable.nn,R.drawable.rr
@@ -36,7 +36,7 @@ public class MainActivity extends AppCompatActivity {
             contacts.add(contact);
             i++;
         }
-            adapter= new ContactAdapter(contacts,MainActivity.this);
+            adapter= new ContactAdapter(contacts,getApplicationContext());
             recyclerView.setAdapter(adapter);
     }
 
